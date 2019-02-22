@@ -12,7 +12,6 @@ include_once('include/header.php');
       <a href="#" class="brand-logo">Painel Administrativo</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="home.php">Home</li>
         <li><a href="sobrenos.php">Sobre Nós</a></li>
         <li><a href="servicos.php">Serviços</a></li>
         <li><a href="#">Javascript</a></li>
