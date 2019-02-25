@@ -54,7 +54,7 @@ include_once('include/header.php');
                     <div class="card-body">
                       <div class="card-title">
                         <p style="color: chocolate; font-family:pantonlight;"><i class="fas fa-dove"></i>    SOBRE NÓS    <i class="fas fa-dove" style="transform: scaleX(-1)"></i></p>
-                        <h4 style="font-family: pantonbold;">UM POUCO DA NOSSA HISTÓRIA</h4>                                  
+                        <h4 style="font-family: pantonbold;" id="teste">UM POUCO DA NOSSA HISTÓRIA</h4>                                  
                           <div class="card-text">
                             <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                           </div>
@@ -367,9 +367,117 @@ include_once('include/header.php');
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid">
           <h6 class="text-center" style="color: chocolate; font-family: pantonlight"><i class="fas fa-dove"></i>    QUER APRENDER MAIS? VENHA ESTUDAR COM A GENTE    <i class="fas fa-dove" style="transform: scaleX(-1)"></i></h6></br>
-          <h3 class="text-center" style="font-family: pantonbold;">CALENDÁRIO DE AULAS</h3> <br><br><br>
+          <h3 class="text-center" style="font-family: pantonbold;">CALENDÁRIO DE AULAS</h3> <br>
         </div>
     </div>
+
+    <!-- Inicio calendário -->
+
+<div class="row col-12">
+  <div class="container-fluid col-12 ml-3">
+      <table class="table table-hover table-dark">
+        <thead>
+          <th scope="row"></th>
+          <th scope="1">Segunda-feira</th>
+          <th scope="2">Terça-feira</th>
+          <th scope="3">Quarta-feira</th>
+          <th scope="4">Quinta-feira</th>
+          <th scope="5">Sexta-feira</th>
+          <th scope="6">Sábado</th>
+          <th scope="7">Domingo</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td width="300"><img src="img/cursos/massagemterapeutica.jpg" alt="" width="100">  Massagem Terapeutica</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+          </tr>
+
+          <tr>
+            <td width="300"><img src="img/cursos/massagemterapeutica.jpg" alt="" width="100">  Massagem Terapeutica</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+          </tr>
+
+          <tr>
+            <td width="300"><img src="img/cursos/massagemterapeutica.jpg" alt="" width="100">  Massagem Terapeutica</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+          </tr>
+
+          <tr>
+            <td width="300"><img src="img/cursos/massagemterapeutica.jpg" alt="" width="100">  Massagem Terapeutica</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+          </tr>
+
+          <tr>
+            <td width="300"><img src="img/cursos/massagemterapeutica.jpg" alt="" width="100">  Massagem Terapeutica</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+          </tr>
+
+          <tr>
+            <td width="300"><img src="img/cursos/massagemterapeutica.jpg" alt="" width="100">  Massagem Terapeutica</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+          </tr>
+
+          <tr>
+            <td width="300"><img src="img/cursos/massagemterapeutica.jpg" alt="" width="100">  Massagem Terapeutica</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+          </tr>
+
+          <tr>
+            <td width="300"><img src="img/cursos/massagemterapeutica.jpg" alt="" width="100">  Massagem Terapeutica</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+            <td>10:00am - 13:00pm</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>    
+</div><br><br>
 
      <!--- END CALENDAR -->
 

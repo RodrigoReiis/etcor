@@ -12,7 +12,7 @@
     <!--- FOOTER -->
 
        <!-- Footer -->
-<footer class="page-footer font-small indigo">
+<footer class="page-footer indigo">
 
     <!-- Footer Links -->
     <div class="container">
@@ -21,7 +21,7 @@
       <div class="row text-center d-flex justify-content-center pt-5 mb-3">
 
         <!-- Grid column -->
-        <div class="col-md-2 mb-3">
+        <div class="col-md-2 mb-2">
           <h6 class="text-uppercase font-weight-bold">
             <a href="../index.php">Home</a>
           </h6>
@@ -47,7 +47,15 @@
            <!-- Grid column -->
         <div class="col-md-2 mb-3">
           <h6 class="text-uppercase font-weight-bold">
-            <a href="../about.php">Serviços</a>
+            <a href="../service.php">Serviços</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="../professionals.php">Profissionais</a>
           </h6>
         </div>
         <!-- Grid column -->
@@ -75,8 +83,24 @@
       <!-- Grid row-->
       <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
 
+       <!-- Grid column -->
+        <div class="col-4 mt-5">
+          <h6 style="font-family: pantonbold">Endereço</h6>
+          <p style="line-height: 1.7rem">Avenida General Osorio, 275, Vila Trujillo, Sorocaba - SP</p>
+        </div><br><br><br>
         <!-- Grid column -->
-        <div class="col-md-8 col-12 mt-5">
+
+        <!-- Grid column -->
+        <div class="col-4 mt-5">
+          <h6 style="font-family: pantonbold">Telefone</h6>
+          <p style="line-height: 1.7rem">(15) 3442 1002<br>
+          (15) 99114 5600 (WhatsApp)<br>
+          contato@etcor.com.br</p>
+        </div><br><br><br>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-4 mt-5">          
           <p style="line-height: 1.7rem">Somos uma empresa credenciada e licenciada para oferecer esses curso, todos os cursos possuem diploma com validação pelo MEC.</p>
         </div><br><br><br>
         <!-- Grid column -->
