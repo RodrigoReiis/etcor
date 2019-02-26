@@ -14,16 +14,16 @@ include_once('include/header.php');
 <!--- ABOUT US -->
 
     
-      <div class="jumbotron" style="position: relative; height:450px; background-color: white;">        
+<div class="jumbotron" style="position: relative; height:450px; background-color: white;">        
         <div class="container-fluid">
           <div class="jumbotron-fluid col-lg-12 " style="background-color: white;">
             <h1 style="margin-left:-400px; font-size: 150px; opacity:0.1; position: absolute;"></h1>
-              <img class="float-left" src="img/yoga.png" style="z-index:5; width: 300px; position: absolute; left:90px;">          
+              <img class="float-left d-none d-lg-block" src="img/yoga.png" style="z-index:5; width: 300px; position: absolute; left:90px;">          
                 <div class="card col-lg-6 float-right" style="z-index: 5; border:0;">
                     <div class="card-body">
                       <div class="card-title">
                         <p style="color: chocolate; font-family:pantonlight;"><i class="fas fa-dove"></i>    SOBRE NÓS    <i class="fas fa-dove" style="transform: scaleX(-1)"></i></p>
-                        <h4 style="font-family: pantonbold;">UM POUCO DA NOSSA HISTÓRIA</h4>                                  
+                        <h4 style="font-family: pantonbold;" id="teste">UM POUCO DA NOSSA HISTÓRIA</h4>                                  
                           <div class="card-text">
                             <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                           </div>
@@ -76,9 +76,9 @@ include_once('include/header.php');
                 </div>                
             </div>
             <div id="imgcard col-lg-6 float-right" style="position:relative;">
-                <img class="img-fluid" style="width: 300px; float: right; margin-right: 200px; padding: 50px;" src="img\background-casal-1.png">
+                <img class="img-fluid d-none d-lg-block" style="width: 300px; float: right; margin-right: 100px; padding: 50px;" src="img/profissionais/modelo1.jpg">
             </div> 
-            <div class="card-footer text-center" style="background-color: white; border: none;">
+            <div class="card-footer text-center" style="background-color: white; border: none; z-index:1 !important">
                 <a class="btn btn-outline-danger" href="#">Instagram</a>
                 <a class="btn btn-outline-primary" href="#">Facebook</a>
                 <a class="btn btn-outline-success" href="#">Whatsapp</a>
@@ -99,10 +99,12 @@ include_once('include/header.php');
                         </blockquote>
                     </div>                
                 </div>
-                <div id="imgcard col-lg-6 float-right" style="position:relative;">
-                    <img class="img-fluid" style="width: 300px; float: right; margin-right: 200px; padding: 50px;" src="img\background-casal-1.png">
+                <div class="container">
+                  <div id="imgcard col-lg-6 float-right" style="position:relative;">
+                    <img class="img-fluid d-none d-lg-block" style="width: 300px; float: right; margin-right: 100px; padding: 50px;" src="img/profissionais/modelo2.jpg">
+                  </div>
                 </div>
-                <div class="card-footer text-center" style="background-color: white; border: none;">                 
+                <div class="card-footer text-center" style="background-color: white; border: none; z-index:1 !important";>                 
                     <a class="btn btn-outline-danger" href="#">Instagram</a>
                     <a class="btn btn-outline-primary" href="#">Facebook</a>
                     <a class="btn btn-outline-success" href="#">Whatsapp</a>
@@ -124,9 +126,9 @@ include_once('include/header.php');
                     </div>                
                 </div>
                 <div id="imgcard col-lg-6 float-right" style="position:relative;">
-                    <img class="img-fluid" style="width: 300px; float: right; margin-right: 200px; padding: 50px;" src="img\background-casal-1.png">
+                    <img class="img-fluid d-none d-lg-block" style="width: 300px; float: right; margin-right: 100px; padding: 50px;" src="img/profissionais/modelo3.jpg">
                 </div>
-                <div class="card-footer text-center" style="background-color: white; border: none;">                 
+                <div class="card-footer text-center" style="background-color: white; border: none;  z-index:1 !important">                 
                     <a class="btn btn-outline-danger" href="#">Instagram</a>
                     <a class="btn btn-outline-primary" href="#">Facebook</a>
                     <a class="btn btn-outline-success" href="#">Whatsapp</a>
@@ -149,9 +151,9 @@ include_once('include/header.php');
                     </div>                
                 </div>
                 <div id="imgcard col-lg-6 float-right" style="position:relative;">
-                    <img class="img-fluid" style="width: 300px; float: right; margin-right: 200px; padding: 50px;" src="img\background-casal-1.png">
+                    <img class="img-fluid d-none d-lg-block" style="width: 300px; float: right; margin-right: 100px; padding: 50px;" src="img/profissionais/modelo4.jpg">
                 </div>
-                <div class="card-footer text-center" style="background-color: white; border: none;">                 
+                <div class="card-footer text-center" style="background-color: white; border: none; z-index:1 !important">                 
                     <a class="btn btn-outline-danger" href="#">Instagram</a>
                     <a class="btn btn-outline-primary" href="#">Facebook</a>
                     <a class="btn btn-outline-success" href="#">Whatsapp</a>
@@ -161,17 +163,18 @@ include_once('include/header.php');
           </div>        
       </div>
 
-    </div>
+    </div><br><br>
 
     <!--- END OUR PROFESSIONALS -->
 
-     <!--- DEPOIMENTS -->
 
-    <div class="jumbotron jumbotron-fluid">
-    	<img src="img/cursos/massagemterapeutica.jpg" alt="" style="position: absolute; width: 100%; height: 600px; opacity: 0.3; display: block;">
-      <div class="container" style="width: 60em"><br> <br>       
+      <!--- DEPOIMENTS -->
+
+    <div class="jumbotron jumbotron-fluid d-none d-sm-block" style="margin-top: -30px;">
+      <img src="img/cursos/massagemterapeutica.jpg" alt="" style="position: absolute; width: 100%; height: 600px; opacity: 0.3; display: block;">
+      <div class="container" style="width: 60em">  <br>   <br>    
         <h6 class="text-center" style="color: chocolate; font-family: pantonlight;"><i class="fas fa-dove"></i>    OLHA O QUE NOSSOS CLIENTES ACHAM    <i class="fas fa-dove" style="transform: scaleX(-1)"></i></h6>
-        <h3 class="text-center" style="font-family: pantonbold;">DEPOIMENTO DOS NOSSOS CLIENTES</h3> <br> <br> <br> <br> 
+        <h3 class="text-center" style="font-family: pantonbold;">DEPOIMENTO DOS NOSSOS CLIENTES</h3> <br> <br> <br> <br>
       
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -196,6 +199,7 @@ include_once('include/header.php');
     </div> <br> <br>
 
      <!--- END DEPOIMENTS -->
+
 
 
 

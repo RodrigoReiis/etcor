@@ -10,7 +10,7 @@ include_once('../include/headercourses.php');
 <!-- Banner -->
 
 <div class="row col-12">
-	<img src="../img/cursos/cromoterapia.jpg" alt="" style="opacity: 0.2;">		
+	<img class="img-fluid" src="../img/cursos/cromoterapia.jpg" alt="" style="opacity: 0.2;">		
 	<h1 class="flex-center my-auto mx-auto" style="font-family: pantonbold;">Cromoterapia</h1>		
 </div><br><br><br>
 
@@ -31,7 +31,7 @@ include_once('../include/headercourses.php');
 
 	<div class="row col-8">
 		<div class="container-fluid">
-			<img src="../img/cursos/cromoterapia.jpg" alt=""><br><br>
+			<img class="img-fluid" src="../img/cursos/cromoterapia.jpg" alt=""><br><br>
 			<h3 style="font-family: pantonbold;">Curso de Cromoterapia</h3>
 			<p class="lead text-justify">
 			  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -65,7 +65,7 @@ include_once('../include/headercourses.php');
 
 	<div class="row col-4 mx-auto">
 		<div class="container-fluid text-center">			
-			<img class="rounded d-block mx-auto" src="../img/yoga.png" alt="" style="width: 250px;">
+			<img class="rounded d-block mx-auto img-fluid" src="../img/profissionais/modelo1.jpg" alt="" style="width: 250px;">
 			<h5 class="" style="font-family: pantonbold;">Professor <b>Luiz Reis</b></h5>
 			<p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 			<div class="container-fluid text-center">

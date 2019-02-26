@@ -49,7 +49,7 @@ include_once('include/header.php');
         <div class="container-fluid">
           <div class="jumbotron-fluid col-lg-12 " style="background-color: white;">
             <h1 style="margin-left:-400px; font-size: 150px; opacity:0.1; position: absolute;"></h1>
-              <img class="float-left" src="img/yoga.png" style="z-index:5; width: 300px; position: absolute; left:90px;">          
+              <img class="float-left d-none d-lg-block" src="img/yoga.png" style="z-index:5; width: 300px; position: absolute; left:90px;">          
                 <div class="card col-lg-6 float-right" style="z-index: 5; border:0;">
                     <div class="card-body">
                       <div class="card-title">
@@ -174,9 +174,9 @@ include_once('include/header.php');
                 </div>                
             </div>
             <div id="imgcard col-lg-6 float-right" style="position:relative;">
-                <img class="img-fluid" style="width: 300px; float: right; margin-right: 200px; padding: 50px;" src="img\background-casal-1.png">
+                <img class="img-fluid d-none d-lg-block" style="width: 300px; float: right; margin-right: 100px; padding: 50px;" src="img/profissionais/modelo1.jpg">
             </div> 
-            <div class="card-footer text-center" style="background-color: white; border: none;">
+            <div class="card-footer text-center" style="background-color: white; border: none; z-index:1 !important">
                 <a class="btn btn-outline-danger" href="#">Instagram</a>
                 <a class="btn btn-outline-primary" href="#">Facebook</a>
                 <a class="btn btn-outline-success" href="#">Whatsapp</a>
@@ -197,10 +197,12 @@ include_once('include/header.php');
                         </blockquote>
                     </div>                
                 </div>
-                <div id="imgcard col-lg-6 float-right" style="position:relative;">
-                    <img class="img-fluid" style="width: 300px; float: right; margin-right: 200px; padding: 50px;" src="img\background-casal-1.png">
+                <div class="container">
+                  <div id="imgcard col-lg-6 float-right" style="position:relative;">
+                    <img class="img-fluid d-none d-lg-block" style="width: 300px; float: right; margin-right: 100px; padding: 50px;" src="img/profissionais/modelo2.jpg">
+                  </div>
                 </div>
-                <div class="card-footer text-center" style="background-color: white; border: none;">                 
+                <div class="card-footer text-center" style="background-color: white; border: none; z-index:1 !important";>                 
                     <a class="btn btn-outline-danger" href="#">Instagram</a>
                     <a class="btn btn-outline-primary" href="#">Facebook</a>
                     <a class="btn btn-outline-success" href="#">Whatsapp</a>
@@ -222,9 +224,9 @@ include_once('include/header.php');
                     </div>                
                 </div>
                 <div id="imgcard col-lg-6 float-right" style="position:relative;">
-                    <img class="img-fluid" style="width: 300px; float: right; margin-right: 200px; padding: 50px;" src="img\background-casal-1.png">
+                    <img class="img-fluid d-none d-lg-block" style="width: 300px; float: right; margin-right: 100px; padding: 50px;" src="img/profissionais/modelo3.jpg">
                 </div>
-                <div class="card-footer text-center" style="background-color: white; border: none;">                 
+                <div class="card-footer text-center" style="background-color: white; border: none;  z-index:1 !important">                 
                     <a class="btn btn-outline-danger" href="#">Instagram</a>
                     <a class="btn btn-outline-primary" href="#">Facebook</a>
                     <a class="btn btn-outline-success" href="#">Whatsapp</a>
@@ -247,9 +249,9 @@ include_once('include/header.php');
                     </div>                
                 </div>
                 <div id="imgcard col-lg-6 float-right" style="position:relative;">
-                    <img class="img-fluid" style="width: 300px; float: right; margin-right: 200px; padding: 50px;" src="img\background-casal-1.png">
+                    <img class="img-fluid d-none d-lg-block" style="width: 300px; float: right; margin-right: 100px; padding: 50px;" src="img/profissionais/modelo4.jpg">
                 </div>
-                <div class="card-footer text-center" style="background-color: white; border: none;">                 
+                <div class="card-footer text-center" style="background-color: white; border: none; z-index:1 !important">                 
                     <a class="btn btn-outline-danger" href="#">Instagram</a>
                     <a class="btn btn-outline-primary" href="#">Facebook</a>
                     <a class="btn btn-outline-success" href="#">Whatsapp</a>
@@ -259,13 +261,13 @@ include_once('include/header.php');
           </div>        
       </div>
 
-    </div>
+    </div><br><br>
 
     <!--- END OUR PROFESSIONALS -->
 
      <!--- DEPOIMENTS -->
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid d-none d-sm-block" style="margin-top: -30px;">
       <img src="img/cursos/massagemterapeutica.jpg" alt="" style="position: absolute; width: 100%; height: 600px; opacity: 0.3; display: block;">
       <div class="container" style="width: 60em">  <br>   <br>    
         <h6 class="text-center" style="color: chocolate; font-family: pantonlight;"><i class="fas fa-dove"></i>    OLHA O QUE NOSSOS CLIENTES ACHAM    <i class="fas fa-dove" style="transform: scaleX(-1)"></i></h6>
@@ -328,7 +330,7 @@ include_once('include/header.php');
                 <p class="card-text"><small class="text-muted"><a href="#" class="btn btn-outline-primary">Leia Mais.</a></small></p>
               </div>
             </div>
-          </div></br>
+          </div><br>
 
 
           <div class="card-deck  col-lg-12">

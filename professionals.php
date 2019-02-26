@@ -46,7 +46,7 @@ include_once('include/header.php');
         <!-- Foto -->
 
         <div class="container-fluid col-5 mx-auto">
-            <img src="img/profissionais/modelo1.jpg" alt="" width="300">
+            <img class="img-fluid" src="img/profissionais/modelo1.jpg" alt="" width="300">
             <br><br><br><br><br><br>
         </div>
     </div>
@@ -58,7 +58,7 @@ include_once('include/header.php');
         <!-- Foto -->
 
         <div class="container-fluid col-5 mx-auto">
-            <img src="img/profissionais/modelo2.jpg" alt="" width="300">
+            <img class="img-fluid" src="img/profissionais/modelo2.jpg" alt="" width="300">
         </div> 
 
         <!-- Texto -->
@@ -93,7 +93,7 @@ include_once('include/header.php');
         <!-- Foto -->
 
         <div class="container-fluid col-5 mx-auto">
-            <img src="img/profissionais/modelo3.jpg" alt="" width="300">
+            <img class="img-fluid" src="img/profissionais/modelo3.jpg" alt="" width="300">
         </div>
     </div>
 
@@ -106,7 +106,7 @@ include_once('include/header.php');
         <!-- Foto -->
 
         <div class="container-fluid col-5 mx-auto">
-            <img src="img/profissionais/modelo4.jpg" alt="" width="300">
+            <img class="img-fluid" src="img/profissionais/modelo4.jpg" alt="" width="300">
         </div>
 
     <!-- Texto -->

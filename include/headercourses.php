@@ -29,7 +29,13 @@
 	<!-- Brand -->
             
 
-    <nav class="navbar navbar-expand-sm bg-light navbar-dark justify-content-center">
+    <nav class="navbar navbar-expand-lg bg-light navbar-dark justify-content-center">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-align-center" style="color: gray;"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
         <a class="navbar-brand" href="#">
          <img src="../img/logo.png" alt="Logotipo ETCOR" style="width:150px; margin-left:20px;">
         </a>
@@ -53,17 +59,17 @@
             <a class="nav-link text-dark" href="../professionals.php" >Profissionais</a>
           </li>
                    
-        </ul>
+        
             
 
           <!-- Dropdown -->
-        <ul class="navbar-nav">
+        
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-dark" href="courses.php" id="navbardrop" data-toggle="dropdown" >
               Serviços
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="service.php">Cromoterapia</a>
+              <a class="dropdown-item" href="../services/cromoterapia.php">Cromoterapia</a>
               <a class="dropdown-item" href="#">Link 2</a>
               <a class="dropdown-item" href="#">Link 3</a>
             </div>
@@ -83,10 +89,10 @@
           </li>
         </ul>
 
-        <a class="btn btn-outline-success ml-auto" href="#">Faça sua matrícula</a>
+        <a class="btn btn-outline-success ml-auto" href="../matricula.php">Faça sua matrícula</a>
         <a class="btn btn-outline-success" href="https://api.whatsapp.com/send?phone=5515991145600&text=Ol%C3%A1%2C%20gostaria%20de%20uma%20informa%C3%A7%C3%A3o" target="_blank" style="margin-left: 10px;">Whatsapp Online</a>
    
-       
+       </div>
       </nav>
       
     <!--- END NAVBAR -->
