@@ -10,7 +10,7 @@ include_once('include/header.php');
 <!-- Banner -->
 
 <div class="row col-12">
-	<img src="../img/cursos/cromoterapia.jpg" alt="" style="opacity: 0.2;">		
+	<img class="img-fluid" src="../img/cursos/cromoterapia.jpg" alt="" style="opacity: 0.2;">		
 	<h1 class="flex-center my-auto mx-auto" style="font-family: pantonbold;"> MATRÍCULA </h1>		
 </div><br><br><br>
 

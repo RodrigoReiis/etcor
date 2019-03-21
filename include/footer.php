@@ -1,12 +1,12 @@
 
  	<!-- jQuery library -->
-    <script src="../css/node_modules/jquery/dist/jquery.js"></script>
+    <script src="css/node_modules/jquery/dist/jquery.js"></script>
 
     <!-- Popper JS -->
-    <script src="../css/node_modules/popper.js/dist/popper.js"></script>
+    <script src="css/node_modules/popper.js/dist/popper.js"></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="../css/node_modules/bootstrap/dist/js/bootstrap.js"></script>  
+    <script src="css/node_modules/bootstrap/dist/js/bootstrap.js"></script>  
 
 
     <!--- FOOTER -->
